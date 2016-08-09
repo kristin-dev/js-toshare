@@ -3,7 +3,7 @@
  * types. For each content type there needed to be a different point that the
  * bar slides up dependent on another element being visible. Also after a few
  * seconds the bar needs to transition to a smaller height (we add the class
- * 'lower' to do this.
+ * 'lower' to do this.)
  */
 (function($, Drupal) {
   Drupal.behaviors.zicassoFloatingBottomBar = {
