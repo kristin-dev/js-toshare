@@ -4,6 +4,10 @@
  * bar slides up dependent on another element being visible. Also after a few
  * seconds the bar needs to transition to a smaller height (we add the class
  * 'lower' to do this.)
+ * 
+ * Ideally, I would flush this out so that it could applied to hiding and
+ * showing different elements at different points, just based on an array.
+ *
  */
 (function($, Drupal) {
   Drupal.behaviors.zicassoFloatingBottomBar = {
